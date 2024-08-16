@@ -47,3 +47,12 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+
+.text-title {
+  font-family: 'Rodchenko';
+  font-weight: bold;
+  font-size: 36px;
+  color: #FEEDDA;
+  background-color: #dc2626;
+  padding: 8px 16px;
+}
