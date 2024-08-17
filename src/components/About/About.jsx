@@ -1,7 +1,7 @@
-import AboutIcon1 from "../../assets/icons/about-icon-1.png";
-import AboutIcon2 from "../../assets/icons/about-icon-2.png";
-import AboutRobot1 from "../../assets/icons/about-robot-1.png";
-import AboutRobot2 from "../../assets/icons/about-robot-2.png";
+import WandBlue from "../../assets/icons/wand-blue.png";
+import AtomRed from "../../assets/icons/atom-red.png";
+import RobotRed from "../../assets/icons/robot-red.png";
+import RobotBlack from "../../assets/icons/robot-black.png";
 
 const About = () => {
   return (
@@ -9,41 +9,41 @@ const About = () => {
       <h1 className="text-title mb-14 w-fit">OБ ИГРЕ</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-14">
         <div className="flex items-center p-4">
-          <img className="mr-4" src={AboutIcon1} alt="Декоративный элемент" />
+          <img className="mr-4" src={WandBlue} alt="Декоративный элемент" />
           <span>
             Погрузитесь в&nbsp;невероятный мир победившего киберсоциализма
           </span>
         </div>
         <div className="flex items-center p-4">
-          <img className="mr-4" src={AboutIcon2} alt="Декоративный элемент" />
+          <img className="mr-4" src={AtomRed} alt="Декоративный элемент" />
           <span>Cтаньте воином справедливости</span>
         </div>
         <div className="flex items-center p-4">
-          <img className="mr-4" src={AboutIcon1} alt="Декоративный элемент" />
+          <img className="mr-4" src={WandBlue} alt="Декоративный элемент" />
           <span>Cражайтесь с&nbsp;легендарными монстрами</span>
         </div>
         <div className="flex items-center p-4">
-          <img className="mr-4" src={AboutIcon2} alt="Декоративный элемент" />
+          <img className="mr-4" src={AtomRed} alt="Декоративный элемент" />
           <span>Распутывайте хитроумные партийные интриги</span>
         </div>
         <div className="flex items-center p-4">
-          <img className="mr-4" src={AboutIcon1} alt="Декоративный элемент" />
+          <img className="mr-4" src={WandBlue} alt="Декоративный элемент" />
           <span>Исследуйте необъятные миры</span>
         </div>
         <div className="flex items-center p-4">
-          <img className="mr-4" src={AboutIcon2} alt="Декоративный элемент" />
+          <img className="mr-4" src={AtomRed} alt="Декоративный элемент" />
           <span>Cмело ввязывайтесь в&nbsp;любые неприятности</span>
         </div>
       </div>
       <div className="grid grid-cols-3 gap-8 mb-14">
         <div>
-          <img src={AboutRobot1} alt="Декоративный элемент" />
+          <img src={RobotRed} alt="Декоративный элемент" />
         </div>
         <div>
-          <img src={AboutRobot2} alt="Декоративный элемент" />
+          <img src={RobotBlack} alt="Декоративный элемент" />
         </div>
         <div>
-          <img src={AboutRobot1} alt="Декоративный элемент" />
+          <img src={RobotRed} alt="Декоративный элемент" />
         </div>
       </div>
       <div className="flex flex-col justify-center items-center" >

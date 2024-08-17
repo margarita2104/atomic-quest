@@ -38,11 +38,15 @@ const Characters = () => {
               src={character.img}
               alt="Изображение персонажа"
             />
-            <h3 className="font-rodchenko text-xl font-bold mb-3">{character.name}</h3>
-            <p className="mb-3 text-center">{character.descr}</p>
-            <button className="py-2 px-4 bg-white hover:bg-stone-300">
-              Просмотр персонажа
-            </button>
+            <div className="min-h-36 flex flex-col items-center justify-between">
+              <h3 className="font-rodchenko text-xl font-bold mb-3">
+                {character.name}
+              </h3>
+              <p className="mb-3 text-center">{character.descr}</p>
+              <button className="py-2 px-4 bg-white hover:bg-stone-300">
+                Просмотр персонажа
+              </button>
+            </div>
           </div>
         ))}
       </div>
